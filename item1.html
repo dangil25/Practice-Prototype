@@ -61,11 +61,13 @@
                     <form>
                         <div class = "row">
                             <div class = "Name col s6">
+                                Trip Name:
                                 <input placeholder = "Trip Name" value="France, February Break" id="Trip Name" type="text" class="validate s1">
                             </div>
                             
                             <div class = "Location col s6">
-                                <input value="Arrival Location" id="Location" type="text" class="validate s4">
+                                Locations:
+                                <input value="Paris" id="Location" type="text" class="validate s4">
                             </div>
                             <br>
                         </div>
@@ -73,33 +75,42 @@
                         <div class = "row">
                             <div class = "Start Date col s6">
                                 Start Date:
-                                <input value="02/14/23" id="Start Date" type="date" class="validate">
+                                <input value="02/14/23" id="Start Date" type="text" class="validate" onfocus = "(this.type='date')">
                             </div>
         
                             <div class = "End Date col s6">
-                                End Date:
-                                <input value=02/23/23 id="End Date" type="date" class="validate">
-                            </div>
-                            
+                                <h6>End Date:</h6>
+                                <input value="02/23/23" id="End Date" type="text" class="validate" onfocus = "(this.type='date')">
+                            </div>                            
                             <br>
                         </div>
+
+                        <div class = "row">
+                            Locations to visit:
+                            <input value = "Eifel Tower, Louvre, Bastogne" id = "Locations to visit" type = "text" class = "validate">
+
+                        </div>
                             
+                        <div class = "modal-footer">
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green green btn-flat">Submit
+                                    <i class="material-icons right">send</i>
+                                </a>
+                                
+                              </div>
+                            
+                        </div>
                         
-                        <button class="btn waves-effect waves-light row push-s2" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
                     </form>
                   
 
 
 
                 </div>
-                <div class="modal-footer">
-                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Save</a>
-                </div>
+                
               </div>
 
-            <a class="btn-large waves-effect waves-light flow-text col push-s8 col s2 red" href="item2.html">
+            <a class="btn-large waves-effect waves-light flow-text col push-s8 col s2 red" href="item1.html">
                 <i class="material-icons left">delete</i>
                 Delete
             </a>
