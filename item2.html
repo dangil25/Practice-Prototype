@@ -8,6 +8,22 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        form {
+            border: solid 3px lightgrey;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        form:focus-within {
+            border-color: #e55a00;
+        }
+
+        tr:hover {
+            background-color: #F0F0F0;
+        }
+    </style>
 </head>
 <body>
     <div class = "container">
@@ -93,8 +109,9 @@
                             
                         <div class = "modal-footer">
                             <div class="modal-footer">
-                                <a href="#!" class="modal-close waves-effect waves-green green btn-flat">Submit
-                                    <i class="material-icons right">send</i>
+                                <a href="#!" class="modal-close waves-effect waves-green green btn-flat">
+                                    <span class="white-text">Submit</span>
+                                    <i class="material-icons right" style ="color:white">send</i>
                                 </a>
                                 
                               </div>
